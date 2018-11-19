@@ -12,7 +12,7 @@ app.get('/model', (req, res) => {
 });
 
 app.get('/group:a-shard:b', (req, res) => {
-  res.sendFile('./model/group'+ req.params.a + '-shard' + req.params.b)
+  res.sendfile('./model/group'+ req.params.a + '-shard' + req.params.b)
 })
 
 const PORT = process.env.PORT || 5000;
