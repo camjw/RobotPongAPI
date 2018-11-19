@@ -1,0 +1,21 @@
+{
+  "name": "robotpongapi",
+  "version": "1.0.0",
+  "description": "API for hosting RobotPong model",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Cameron Whitehead, James Rodney, Jonathan Andrews, Aidan Faria",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
